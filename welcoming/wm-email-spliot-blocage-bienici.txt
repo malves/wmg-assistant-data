@@ -1,0 +1,379 @@
+
+Thomas ADOLPH
+Nov 7, 2025, 6:34 PM (4 days ago)
+to Elodie, Frédéric, [WM], François, me, mchamois, Mathilde
+
+Bonjour Fred,
+
+Nous travaillons sur ce point. Nous regardons avec le client la possibilité d'avoir un sous-domaine délégué. Mais cela impliquera de repartir sur une période de ramp-up, au moins pour les ESP Vade (Orange, Free, SFR, LaPoste). On est en train de préparer cette possibilité en tous les cas.
+Est ce que vous avez un planning/des dates sur une éventuelle mise en place ? Vu que c'est un point de l'atelier ça permettrait de marquer des points avec Vade en leur montrant que leurs recommendations ont bien été entendues.
+
+
+J'ai cependant toujours du mal à comprendre comment une newsletter qui existe depuis début 2017 (donc quasi 9 ans), qui a construit une solide réputation, qui est appréciée et demandée par nos lecteurs (qui ont parfaitement compris qui était Welcome Media puisqu'ils nous écrivent bien à nous pour demander pourquoi ils ne la reçoivent plus par exemple) et qui n'a jamais eu de problème de délivrabilité jusqu'à cet été, qui n'est pas pubée, se retrouve sujette à un blocage aussi drastique avec quelques milliers de mails qui passent chaque jour puis le reste est retourné en softbounces. 
+Je me demande si le changement de sender en ajoutant finalement le "avec Bien'ici" suite à Mon Futur Logement, dans une volonté d'être plus clair comme le demandait Vade, n'a pas eu l'effet inverse et provoqué le blocage.
+Un point évoqué pendant l'atelier était sur le snowshoeing, le fait que Vade voyait les mêmes emails venir de plusieurs annonceurs différents, ce qui, vu de leur côté ressemble à une manière de diluer du traffic sur plusieurs domaines différents. Il est possible que, si bienici passe par plusieurs partenaires, dont des moins regardants sur les ciblages, tous les mails de plusieurs émetteurs dont vous aient été traités au même titre et bloqués au global. La tendance étant au durcissement c'est possible que ces comportements passaient "juste" avant mais qu'avec la baisse de tolérance on ne soit plus dans les clous.
+
+
+Si lundi la newsletter est toujours bloquée, malgré l'actualisation de la landing page, malgré les optimisations de sender... je pense quand même que soumettre un ticket après près de 40 jours de blocage serait légitime. Ne serait-ce que pour s'assurer que si on lance sur un ramp-up sur un sous-domaine client, on ne passe pas à côté d'un autre sujet bloquant aux yeux de Vade qui nuirait au lancement sur le nouveau sous-domaine.
+Je profiterai du pont lundi mais je vous laisse entre les mains d'Elodie (que j'ai rajoutée au thread). Je pense qu'il faut profiter des informations qui ont été partagées/recommandées pendant l'atelier (notamment sur les domaines d'envois) pour montrer notre bonne foi à Vade et montrer que Welcoming est bien à leur écoute et prêt à faire les efforts demandés. Dans le meilleur des cas cela pourrait permettre de négocier pour avoir un peu d'indulgence sur la partie ramp-up s'ils sont satisfaits des changements.
+
+
+Bon weekend,
+
+Thomas
+
+
+
+Logo
+Thomas ADOLPH
+Site Reliability Engineer
+tadolph@splio.com
+27 Boulevard des Italiens
+75002 Paris - France
+Linkedin	Twitter	Instagram	
+ | splio.com
+From: Frédéric Thorens <fthorens@welcoming.com>
+Sent: Thursday, November 6, 2025 11:04
+To: Thomas ADOLPH <tadolph@splio.com>
+Cc: [WM] [Team] Programmation <prog@welcoming.com>; François LOUART <flouart@splio.com>; Michael Alves <malves@welcoming-group.com>; mchamois <mchamois@welcoming.com>; Mathilde Chenel <mchenel@welcoming-group.com>
+
+Subject: Re: Délivrabilité dégradée de Mon Futur Logement sur Vade
+ 
+
+
+Bonjour Fred
+
+Bonjour Thomas et merci pour ton mail complet.
+ 
+
+
+Est-ce que vous avez des retours concernants l'atelier d'hier ? Pas mal d'informations intéressantes ont été partagées notamment ce qui était attendu (principalement par Orange et Vade) au niveau des émetteurs et designs des mails. Voici a beaucoup été pris en exemple parce que c'était cette marque qui était utilisée dans les slides mais les conseils peuvent être appliqués sur d'autres marques.
+
+Oui, Mathilde et Martin nous ont rapporté à l'équipe délivrabilité les échanges et discussions de cet atelier.
+
+
+ 
+Concernant la newsletter futur logement, suite aux discussions d'hier voilà quelques points sur lesquels ont peut se concentrer dans un premier temps : 
+
+Un point évoqué hier était sur la compréhension au niveau du destinataire de pourquoi il reçoit cet email, qui l'envoie effectivement, qui gère son consentement, etc. Dans le cas de la NL bienici, il reçoit une newsletter "Mon Futur Logement" envoyée par Welcoming pour la marque Bien Ici ce qui n'est peut être pas clair pour le destinatire. Plusieurs sous-points sur ce sujet : 
+Quel est le cheminement pour un destinataire pour arriver sur cette NL ? Est ce que le destinataire sais qui est "Mon Futur Logement" et à quel moment il y a été abonné ? Comment fait-il le lien entre la marque "Mon Futur Logement" et Bien Ici ?
+L'utilisation de domaines cousins (e.g. "marque-news.com") ou de marque non connue peut être interprété comme du snow-shoeing ou des tactiques de spam/phising et avoir un impact négatif et il est préférable d'utiliser des sous-domaines
+Vade et Orange (principalement) préconisaient d'envoyer la NL avec comme émetteur Bien Ici (à voir les implications légales pour utiliser leur nom) et de mettre le nom de la newsletter plutôt dans le sujet, e.g. "[Mon Futur Logement] ..."
+Différentes suggestions ont aussi été faites sur l'expéditeur du mail : 
+idéalement quelque chose comme mon-futur-logement.bienici.com (il faudrait dans ce cas déléguer/configurer au niveau DNS chez bienici)
+ou vu que c'est une "marque" Welcoming, mon-futur-logement.welcoming.com vu que c'est vous qui êtes maitres des consentements pour cette base de contacts (avis d'Orange)
+Ceci étant dans l'objectif de clarifier, pour le destinataire, qui lui envoi cette NL, quelle est la marque derrière, qui gère son consentement, etc. (sachant que ça reste un sujet compliqué pour la plupart des gens)
+
+Nous travaillons sur ce point. Nous regardons avec le client la possibilité d'avoir un sous-domaine délégué. Mais cela impliquera de repartir sur une période de ramp-up, au moins pour les ESP Vade (Orange, Free, SFR, LaPoste). On est en train de préparer cette possibilité en tous les cas.
+
+J'ai cependant toujours du mal à comprendre comment une newsletter qui existe depuis début 2017 (donc quasi 9 ans), qui a construit une solide réputation, qui est appréciée et demandée par nos lecteurs (qui ont parfaitement compris qui était Welcome Media puisqu'ils nous écrivent bien à nous pour demander pourquoi ils ne la reçoivent plus par exemple) et qui n'a jamais eu de problème de délivrabilité jusqu'à cet été, qui n'est pas pubée, se retrouve sujette à un blocage aussi drastique avec quelques milliers de mails qui passent chaque jour puis le reste est retourné en softbounces. 
+Je me demande si le changement de sender en ajoutant finalement le "avec Bien'ici" suite à Mon Futur Logement, dans une volonté d'être plus clair comme le demandait Vade, n'a pas eu l'effet inverse et provoqué le blocage.
+
+ 
+
+Quand les emails ont été bloqués cet été Vade avait remonté qu'il n'y avait pas de site derrière l'adresse de l'émetteur. Il y en a maitenant un mais il présente des offres de vente de Juillet dernier dont certaines ne sont plus à jour voire supprimées depuis. Je pense que ça pourrait vous être reproché à nouveau. On avait échangé sur ce point auparavant où vous nous disiez que ce n'était pas votre rôle de présenter/mettre à jour des annonces ce qu'on peut comprendre. En tous les cas ce n'est pas uniquement ce point qui résoudra les problèmes mais qui peut en créer. Passer sur un sous domaine de bien ici permettrait de s'en affranchir, le domaine renvoyant directement vers le site du client.
+
+
+Merci de ta vigilance. Nous avons immédiatement pris ce point. Nous avons mis à jour la landing page avec des annonces récentes et avons mis en place une procédure afin que cette page soit actualisée sur une base régulière pour éviter les annonces périmées ou trop anciennes.
+Mais effectivement si nous passons sur un sous-domaine Bien Ici permettra de contourner ce souci.
+
+ 
+
+D'autres points qui ont été remontés (probablement des redites mais au cas où) :
+les newsletters éditoriales ont globalement explosé en termes de nombres de plaintes avec ~15% du volume de plaintes total, et ça reste un indicateur très important du côté des gens qui traitent/reçoivent des emails
+Il y a eu un échange sur la clarté des liens publicitaires (les exemples n'étaient pas sur vos NL) mais ils ont bien insité sur le fait que cela devait être bien différencié et facilement identifiable pour qu'ils ne soit pas conondus avec les liens des marques elles-mêmes
+La réputation s'applique au domaine émetteurs mais aussi sur les domaines des liens présents dans le HTML, notamment les liens de publicité et que des publicités sur un domaine peu recommendable peut impacter "en remontant" la réputation du domaine émetteur
+
+Merci pour ces rappels. 
+Sur l'explosion des taux de plaintes => notre volume de plaintes Orange est passé de 29k par jour en moyenne en avril / mai / juin à 18k par jour en moyenne en octobre, soit une baisse de 40%. C'est le fruit de nos actions de re-ciblage. Ça a d'ailleurs eu un impact également fort sur nos désabonnement puisque le volume de désabonnements Orange est passé de 7k par jour en moyenne en avril / mai / juin à 3k par jour en octobre, soit une baisse de 60%. Notre volume d'envoyés Orange a quant à lui baissé de 30%. On continue de monitorer tout ça de très près pour poursuivre la réduction des plaintes, désabos et spamtraps au maximum.
+Sur la clarté des liens publicitaires => nos encarts publicitaires dans les newsletters sont reconnaissables du contenu éditorial par la mention "sponsorisé par...". Suite à l'atelier, l'équipe dédiée à cela en interne a refait une passe sur l'ensemble de nos contenus pour s'assurer que c'est bien le cas partout et qu'il n'y a pas de manque de ce côté.
+Sur la réputation de la pub qui impacte la réputation du domaine => on est en phase et nous veillons quotidiennement à ce que nos newsletters ne contiennent pas de lien vers des publicités ou des contenus qui ne seraient pas "recommandables", ce qui a pu nous causer du tord par le passé. Nous apprenons de nos erreurs ;-) 
+
+
+En l 'état j'ai peur que remonter un ticket côté Vade se solde par un "on avait remonté des commentaires sur le site web, revoyez votre copie" qui ne sera pas forcément productif ; il vaudrait mieux se pencher sur les points remontés lors de l'atelier sur les émetteurs pour montrer qu'on a bien pris en compte leurs retours.
+
+Si lundi la newsletter est toujours bloquée, malgré l'actualisation de la landing page, malgré les optimisations de sender... je pense quand même que soumettre un ticket après près de 40 jours de blocage serait légitime. Ne serait-ce que pour s'assurer que si on lance sur un ramp-up sur un sous-domaine client, on ne passe pas à côté d'un autre sujet bloquant aux yeux de Vade qui nuirait au lancement sur le nouveau sous-domaine.
+ 
+
+
+Dans la réponse qui avait été faite par Vade en Juillet : 
+
+Tout porte à croire que les mêmes activités de votre client, chez vous comme ailleurs, sont diffusées derrière plusieurs domaines, prétendument éditoriaux.
+Nous serions curieux d'obtenir une vue sur l'intégralité des domaines qu'il utilise et les usages qui en sont faits/les raisons justifiants leur existence.
+
+
+Si vous avez des détails sur " les usages qui en sont faits/les raisons justifiants leur existence" de cette NL, on pourra les rajouter au ticket.
+
+
+Nous avons un domaine unique par newsletter (donc une landing page par newsletter). Parfois nous sommes contraints de basculer sur un nouveau domaine donc il peut arriver qu'on ait momentanément deux domaines pour un seul contenu qui co-existent mais ce ne sont pas les mêmes populations qui sont shootées dessus et la coexistence ne dure que le temps de la bascule d'un domaine à l'autre. C'est le cas quand on passe d'un de nos domaines à un domaine client par exemple ou quand un site est vendu à un autre propriétaire et qu'en conséquence on part sur un nouveau domaine (Gala qui passe de Prisma à Figaro par exemple).
+ 
+
+
+Thomas
+
+
+Fred
+
+
+
+ 
+From: Frédéric Thorens <fthorens@welcoming.com>
+Sent: Friday, October 31, 2025 07:31
+To: Thomas ADOLPH <tadolph@splio.com>
+Cc: [WM] [Team] Programmation <prog@welcoming.com>; François LOUART <flouart@splio.com>; Elodie FURCY <efurcy@splio.com>; Michael Alves <malves@welcoming-group.com>; mchamois <mchamois@welcoming.com>
+Subject: Re: Délivrabilité dégradée de Mon Futur Logement sur Vade
+ 
+Salut Thomas,
+
+Merci pour tes réponses 🙂
+
+
+Il va falloir qu'on lance le projet dont on avait parlé lors de notre dernier meeting pour déterminer des métriques que vous pouvez nous remonter pour que nous puissions améliorer nos dashboards sur vos envois.
+
+=> yes bien sûr aucun souci. Mathieu est en copie. Je vous laisse vous coordonner pour voir ce que vous aimeriez comme métriques et comment on peut vous y donner accès d'un manière ou d'une autre.
+
+
+
+
+Est ce que c'est vraiment cette adresse parce que je n'ai pas de messages dessus ? C'est une adresse relativement récente parce qu'on a changé d'accès Orange et perdu l'accès à une ancienne adresse dont le nom était très ressemblant
+
+=> effectivement, ce n'est plus exactement la même adresse. On ne savait pas que vous aviez changé l'ancienne. On va faire le switch sur l'ensemble de nos NLs. Je viens de le faire pour Mon Futur Logement et Aujourd'hui Météo. Donc ce weekend tu devrais pouvoir recevoir sur cette adresse au moins ces 2 NLs ce qui te permettra de regarder ce que tu souhaites checker lundi. Si ce n'est pas le cas, dis le moi.
+
+
+
+Lors des EMDays, il avait été suggéré d'utiliser soit un sous domaine d'une marque (e.g. ml.marque.com) ou un sous-domaine d'un domaine à vous (e.g. marque.welcoming.com) ; est ce que ce sont des pistes que vous avez pu explorer (cela pose évidemment beaucoup de questions sur la migration/warmup), mais cela peut être un point à approfondir à l'atelier de lundi ? 
+
+=> effectivement ce sont des solutions que nous envisageons. Nous avons déjà quelques NLs en sous domaine de marques et nous sensibilisons nos clients sur cet "avantage" lors de lancement de nouvelles NLs. Pour le cas des NLs déjà anciennes, effectivement le switch sur un nouveau domaine, même un sous-domaine nécessite un travail de bascule et de ramp-up en douceur dans la durée, impactant tous les ESP. C'est que nous avons fait pour les newsletters du groupe ELLE. Et nous l'envisageons effectivement pour Mon Futur Logement.
+
+
+Concernant ce problème est ce que ce ne serait pas une bonne occasion d'en discuter à l'atelier de lundi pour discuter de ces problématique et clarifier comment communiquer efficacement entre tous les intervenants (Welcoming, Splio, Vade/MBPs) dans les 2 directions ?
+
+=> totalement en phase. C'est exactement l'un des sujets que nous souhaiterions aborder lundi. Comment avoir des infos plus rapidement sur les causes et raisons des blocages et pouvoir de notre côté mettre en place les correctifs au lieu de faire perdurer des situations tendues par manque de visibilité ou de communication. Martin et Mathilde seront bien présents côté Welcoming pour échanger de manière constructive sur le sujet.
+
+
+Merci en tous les cas de tes réponses claires et rapides, c'est super appréciable.
+
+Refaisons le point mardi (je suis off lundi). L'atelier sera passé, on aura dépassé les 28 jours de blocage sur Mon Futur Logement et tu auras reçu les 2 NLs sur la boite Orange. On n'aura plus d'éléments pour avancer sur ce déblocage.
+
+Bonne journée
+
+F.
+------------------------------------------------------------------------------------------------------------------------------
+Welcoming, extend your audience and business
+
+Fred THORENS
+Responsable CRM et Délivrabilité
+Welcoming.com
+Une société Welcoming Group
+75008 Paris
+
+
+
+
+
+
+
+
+
+
+
+Le jeu. 30 oct. 2025 à 18:43, Thomas ADOLPH <tadolph@splio.com> a écrit :
+Fred,
+
+Pareil je rebondis sur tes réponses 🙂
+
+J'ai fait un check rapide sur bienici et effectivement je vois que c'est dégradé depuis le 7 Octobre. Par contre je ne vois ça que sur Orange et SFR ; pour LaPoste et Free la partie delivery pure est ok (> 99%).
+
+=> La délivrabilité de Free est dégradée même si cet ESP ne softe pas.
+
+Effectivement, c'est pour ça que je parlais de delivery uniquement. Je n'avais pas pu vérifier encore les stats d'ouvertures.
+
+=> La landing page, on l'a mise en place en juillet suite à ce qu'ils avaient remonté dans le ticket que vous leur aviez fait sur le blocage du 26 juin qui a duré 28 jours. Elle n'a pas bougé depuis donc le 7 octobre elle était en place depuis près de 3 mois
+
+=> Le nom de domaine et l'adresse émetteur n'ont pas changé depuis le lancement de la NL en 2017
+
+=> La seule chose que nous avons modifié le 30 septembre (donc 1 semaine avant le blocage) c'est le Sender qui est passé de "Mon Futur Logement" à "Mon Futur Logement avec Bien'ici" pour justement être en adéquation avec le titre et le branding de la NL. Si c'est ça qui a dérangé, pourquoi le blocage serait-il intervenu 7 jours après et pas immédiatement...
+
+Oui, le changement de nom d'émetteur n'a probablement pas d'impact, le plus important reste les domaines utilisés.
+
+=> côté ciblage, nous avons fait pas mal d'actions courant juillet (lors du 1er blocage) pour baisser les ciblages sur les populations qui désabonnaient et plaignaient et pour recentrer la segmentation sur des actifs et notamment des cliqueurs.
+On voit bien les effets de ces nouveaux ciblages sur les 2 captures suivantes :
+Les désabonnements de la NL sont passé d'une moyenne de 150 par jour (pour un taux de désabonnement moyen autour de 0,07% par jour) à une moyenne de 75 par jour (pour un taux de désabonnement moyen autour de 0,06% par jour)
+Les plaintes de la NL sont passé d'une moyenne de 850 par jour (pour un taux de plaintes sur délivrés moyen autour de 0,40% par jour) à une moyenne de 600 par jour (pour un taux de de plaintes sur délivrés moyen autour de 0,28% par jour)
+
+C'est noté. Pour les désabonnements je pense que vous avez plus de visibilité que nous surtout que maintenant le list-unsub passe par chez vous directement. Il va falloir qu'on lance le projet dont on avait parlé lors de notre dernier meeting pour déterminer des métriques que vous pouvez nous remonter pour que nous puissions améliorer nos dashboards sur vos envois.
+
+Côté plaintes si je vérifie les IPs sur Signal Spam : 
+
+
+(Je ne sais pas dans quelle mesure le premier point est fiable). En excluant le premier point on retrouve effectivement les ~600 plaintes dont tu parles, mais avec un pic à ~800, peut être que ça a dépassé une limite ce jour là, ce qui a pu déclencher des actions automatiques et/ou une vérification manuel qui a pu aboutir à un blocage. Ces 2 points les plus hauts correspondent aux lundis sur lesquels tu me dis que plus de mails partent donc plus de mails => plus de plaintes.
+
+Tu disais dans le permier mail : 
+La semaine avant la dégradation, le taux de plaintes sur délivrés (global, pas que boite de réception) était de 0,28% donc avec une marge nette me semble-t'il par rapport aux 0,6% sur délivrés en boite de réception demandés par Orange.
+Effectivement on a une bonne marge (0.28 vs 0.6) mais il suffit que pour une raison ou une autre les mails commencent à arriver en spam et ça peut augmenter rapidement (si on est à 0.28 sur le total, il "suffit" que 50% du volume total commence à arriver en spam pour s'approcher rapidement du 0.6%). Vu que ça dépend de leur règles de filtrages qui peuvent évoluer/changer du jour au lendemain, ça peut arriver vite.
+
+
+Est ce que tu peux essayer de m'envoyer des mails de bienici et une autre newsletter qui marche bien (je vois "aujmeteo" qui a pas mal de volume sur orange et qui est ok) sur l'adresse pedro.tactile@orange.fr, j'aimerai bien voir les headers rajoutés par Vade. (celle de bienici n'arrivera pas tout de suite probablement mais pour quand ça pas
+
+=> Cette adresse est déjà en seedlist sur les 2 newsletters. Peux-tu vérifier que tu ne les as pas reçu ? Si c'est le cas @Mathieu Chamois pourra te faire un envoi test spécifique pour ces 2 NLs pour que tu puisses checker ce que tu souhaites.
+
+Est ce que c'est vraiment cette adresse parce que je n'ai pas de messages dessus ? C'est une adresse relativement récente parce qu'on a changé d'accès Orange et perdu l'accès à une ancienne adresse dont le nom était très ressemblant.
+
+Lors des EMDays, il avait été suggéré d'utiliser soit un sous domaine d'une marque (e.g. ml.marque.com) ou un sous-domaine d'un domaine à vous (e.g. marque.welcoming.com) ; est ce que ce sont des pistes que vous avez pu explorer (cela pose évidemment beaucoup de questions sur la migration/warmup), mais cela peut être un point à approfondir à l'atelier de lundi ? 
+
+Concernant ce problème est ce que ce ne serait pas une bonne occasion d'en discuter à l'atelier de lundi pour discuter de ces problématique et clarifier comment communiquer efficacement entre tous les intervenants (Welcoming, Splio, Vade/MBPs) dans les 2 directions ?
+
+
+
+
+Bonne soirée,
+
+Thomas
+
+Logo
+Thomas ADOLPH
+Site Reliability Engineer
+tadolph@splio.com
+27 Boulevard des Italiens
+75002 Paris - France
+Linkedin	Twitter	Instagram	
+ | splio.com
+From: Frédéric Thorens <fthorens@welcoming.com>
+Sent: Thursday, October 30, 2025 17:12
+To: Thomas ADOLPH <tadolph@splio.com>
+Cc: [WM] [Team] Programmation <prog@welcoming.com>; François LOUART <flouart@splio.com>; Elodie FURCY <efurcy@splio.com>; Michael Alves <malves@welcoming-group.com>
+Subject: Re: Délivrabilité dégradée de Mon Futur Logement sur Vade
+ 
+Merci Thomas pour ton retour rapide.
+
+Alors si je reprends tes points un par un :-)
+
+
+
+J'ai fait un check rapide sur bienici et effectivement je vois que c'est dégradé depuis le 7 Octobre. Par contre je ne vois ça que sur Orange et SFR ; pour LaPoste et Free la partie delivery pure est ok (> 99%).
+
+=> La délivrabilité de Free est dégradée même si cet ESP ne softe pas.
+
+AVANT : on avait des TO autour de 51%
+
+Capture d’écran 2025-10-30 à 16.22.49.png
+
+APRÈS : on a des TO autour de 14%
+
+Capture d’écran 2025-10-30 à 16.22.04.png
+
+
+
+Tu parles de la landing page et des adresses émetteurs, est ce que vous avez fait des modifications sur ces points récemment ? ou tout autres modifications aux alentours du début du blocage ? Si on doit ouvrir un case chez Vade, c'est bien si on a une liste des changements/améliorations que vous avez faits récemment.
+
+=> La landing page, on l'a mise en place en juillet suite à ce qu'ils avaient remonté dans le ticket que vous leur aviez fait sur le blocage du 26 juin qui a duré 28 jours. Elle n'a pas bougé depuis donc le 7 octobre elle était en place depuis près de 3 mois
+
+=> Le nom de domaine et l'adresse émetteur n'ont pas changé depuis le lancement de la NL en 2017
+
+=> La seule chose que nous avons modifié le 30 septembre (donc 1 semaine avant le blocage) c'est le Sender qui est passé de "Mon Futur Logement" à "Mon Futur Logement avec Bien'ici" pour justement être en adéquation avec le titre et le branding de la NL. Si c'est ça qui a dérangé, pourquoi le blocage serait-il intervenu 7 jours après et pas immédiatement...
+
+=> côté ciblage, nous avons fait pas mal d'actions courant juillet (lors du 1er blocage) pour baisser les ciblages sur les populations qui désabonnaient et plaignaient et pour recentrer la segmentation sur des actifs et notamment des cliqueurs.
+On voit bien les effets de ces nouveaux ciblages sur les 2 captures suivantes :
+Les désabonnements de la NL sont passé d'une moyenne de 150 par jour (pour un taux de désabonnement moyen autour de 0,07% par jour) à une moyenne de 75 par jour (pour un taux de désabonnement moyen autour de 0,06% par jour)
+Capture d’écran 2025-10-30 à 16.25.16.png
+Les plaintes de la NL sont passé d'une moyenne de 850 par jour (pour un taux de plaintes sur délivrés moyen autour de 0,40% par jour) à une moyenne de 600 par jour (pour un taux de de plaintes sur délivrés moyen autour de 0,28% par jour)
+Capture d’écran 2025-10-30 à 16.26.49.png
+
+À noter que les pics qu'on voit chaque lundi, en plaintes comme en désabonnements, proviennent du fait que nous envoyons 2 NLs le lundi, la classique le matin et une ciblée sur les annonces "NEUF" uniquement sur nos super cliqueurs intéressés par les annonces Neuf. Mais ça a toujours été le cas depuis plusieurs années donc j'ai du mal à penser que ce soit ça qui ait généré le blocage. Mais je n'exclue rien !
+
+
+
+Est ce que tu peux essayer de m'envoyer des mails de bienici et une autre newsletter qui marche bien (je vois "aujmeteo" qui a pas mal de volume sur orange et qui est ok) sur l'adresse pedro.tactile@orange.fr, j'aimerai bien voir les headers rajoutés par Vade. (celle de bienici n'arrivera pas tout de suite probablement mais pour quand ça pas
+
+=> Cette adresse est déjà en seedlist sur les 2 newsletters. Peux-tu vérifier que tu ne les as pas reçu ? Si c'est le cas @Mathieu Chamois pourra te faire un envoi test spécifique pour ces 2 NLs pour que tu puisses checker ce que tu souhaites.
+
+
+
+N'hésite pas si tu as besoin d'autres éléments. Je réfléchis aussi de mon côté si j'ai d'autres choses qui pourraient être intéressantes sur ce cas.
+Comme tu le vois, on suit nos KPI Orange (et par ESP en général) de très près et on est vraiment focus pour essayer de réduire à maximum les plaintes et désabonnements d'Orange comme des ESP en général.
+
+Bonne fin de journée
+
+F.
+
+------------------------------------------------------------------------------------------------------------------------------
+Welcoming, extend your audience and business
+
+Fred THORENS
+Responsable CRM et Délivrabilité
+Welcoming.com
+Une société Welcoming Group
+75008 Paris
+
+
+
+
+
+
+
+
+
+
+
+Le jeu. 30 oct. 2025 à 15:57, Thomas ADOLPH <tadolph@splio.com> a écrit :
+Bonjour Fred,
+
+J'ai fai un check rapide sur bienici et effectivement je vois que c'est dégradé depuis le 7 Octobre. Par contre je ne vois ça que sur Orange et SFR ; pour LaPoste et Free la partie delivery pure est ok (> 99%).
+
+Par contre comme nous n'avons pas toute la visibilté (je pense que vous avez plus de métriques que nous maintenant), c'est un peu plus compliqué d'investiguer. Je regarde plus en détails et je te fais un retour plus complet rapidement.
+
+Tu parles de la landing page et des adresses émetteurs, est ce que vous avez fait des modifications sur ces points récemment ? ou tout autres modifications aux alentours du début du blocage ? Si on doit ouvrir un case chez Vade, c'est bien si on a une liste des changements/améliorations que vous avez faits récemment.
+
+Est ce que tu peux essayer de m'envoyer des mails de bienici et une autre newsletter qui marche bien (je vois "aujmeteo" qui a pas mal de volume sur orange et qui est ok) sur l'adresse pedro.tactile@orange.fr, j'aimerai bien voir les headers rajoutés par Vade. (celle de bienici n'arrivera pas tout de suite probablement mais pour quand ça passera).
+
+Je regarde plus en détails et je te tiens au courant.
+
+
+Thomas
+
+
+Logo
+Thomas ADOLPH
+Site Reliability Engineer
+tadolph@splio.com
+27 Boulevard des Italiens
+75002 Paris - France
+Linkedin	Twitter	Instagram	
+ | splio.com
+From: Frédéric Thorens <fthorens@welcoming.com>
+Sent: Thursday, October 30, 2025 13:47
+To: Thomas ADOLPH <tadolph@splio.com>
+Cc: [WM] [Team] Programmation <prog@welcoming.com>; François LOUART <flouart@splio.com>; Elodie FURCY <efurcy@splio.com>; Michael Alves <malves@welcoming-group.com>
+Subject: Délivrabilité dégradée de Mon Futur Logement sur Vade
+ 
+Bonjour Thomas,
+
+J'espère que tu vas bien.
+
+Je reviens vers toi concernant notre newsletter "Mon Futur Logement avec Bien'ici" qui est routée chez vous (univers "bienici_new") sur le pool w175 (91.190.171.175 / 91.190.171.176 / 91.190.171.177)
+
+Depuis le 7 octobre (donc 24 jours en comptant aujourd'hui), la délivrabilité de cette newsletter est dégradée sur Orange, Free, et SFR (alors que nous n'avons aucun souci sur les autres ESP). Chaque jour un petit volume passe puis le reste est mis en attente et termine en soft le lendemain. Pourtant, les KPI sur la partie qui délivre sont plutôt bons :
+TO Orange autour de 40%
+TC Orange autour de 15%
+TD Orange autour de 0,02%
+Capture d’eìcran 2025-10-30 aÌ 12.33.03.png
+De même, si on regarde les KPI avant dégradation, ils étaient également extrêmement corrects à mes yeux :
+TO Orange autour de 46%
+TC Orange autour de 11%
+TD Orange autour de 0,05%
+Capture d’eìcran 2025-10-30 aÌ 13.27.01.png
+La semaine avant la dégradation, le taux de plaintes sur délivrés (global, pas que boite de réception) était de 0,28% donc avec une marge nette me semble-t'il par rapport aux 0,6% sur délivrés en boite de réception demandés par Orange.
+
+La NL n'est pas pubée.
+Elle possède désormais une landing page par rapport au nom de domaine : https://futur-logement.com/
+Les senders, titres, entêtes... sont en adéquation : Mon Futur Logement avec Bien'ici / bienici@ml.futur-logement.com
+Capture d’eìcran 2025-10-30 aÌ 13.37.07.png
+
+Notre client comment à s'impatienter de ce blocage et nous demande expressément de connaître les raisons de ce blocages. Sans parler de nos destinataires Orange qui nous écrivent pour demander à recevoir à nouveau la NL à laquelle ils sont abonnés.
+
+Donc :
+est-ce qu'avec vos outils, vos logs... tu vois quelque chose qui nous aurait échappé pouvant expliquer ce blocage soudain à partir du 7 octobre ou expliquant le peu de volume qui passe chaque jour puis le rejet et la mise en soft du reste des destinataires ?
+si ce n'est pas le cas, peux-tu soumettre un ticket chez Vade (puisque routé par vous) ou solliciter vos contacts chez Vade pour connaître la raison de ce blocage / cette dégradation qui dure depuis maintenant 24 jours afin que nous puissions oeuvrer rapidement sur le correctif qui satisferait Vade et permettrait de lever le blocage ?
+Merci de ton aide
+
+F.
