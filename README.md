@@ -1,1 +1,0 @@
-# wmg-assistant-data
