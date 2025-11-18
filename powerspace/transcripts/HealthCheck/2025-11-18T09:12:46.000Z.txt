@@ -1,0 +1,315 @@
+Tue Nov 18 at 9:12 AM UTC - malves@welcoming-group.com
+
+Duration :
+26
+
+tanjubault,malves
+tanjubault@powerspace.com,malves@welcoming-group.com
+
+Overview : 
+
+- **Automatisation de l'assistant IA Albert** : Albert améliore le support, mais limité sur les données sensibles comme les KPIs.
+
+- **Performance publicitaire en déclin** : Dépenses de 15 200 €, baisse due à réductions budgétaires chez plusieurs annonceurs.
+
+- **Indicateurs d'efficacité en chute** : CPC à 38 centimes, baisse de 7-8%. Attention à la saturation du marché.
+
+- **Relations avec fournisseurs** : Retards pour déploiement Figaro prévu le 24 novembre, attentes de clarifications avec Digital Prisma.
+
+- **Proposition tarifaire pour Figaro** : Envoyée il y a dix jours, Thomas envisage d'autres contacts pour accélérer le processus.
+
+- **Stratégie commerciale** : Optimisations techniques à poursuivre, relance des partenaires nécessaires pour maximiser les investissements avant Black Friday.
+
+Super Summary List Action Items : 
+
+
+**Thomas Anjubault**
+Corriger et mettre à jour la documentation Confluence pour améliorer la fiabilité des données pour Albert (10:00)
+Relancer et organiser le call avec Digital Prisma pour faire le point sur la collaboration (15:00)
+Modifier les tags demandés par Maxime Aïnez pour faciliter les déploiements (14:00)
+Envoyer un message à Nazim et Brice concernant la fenêtre d’opportunité publicitaire pré-Black Friday pour Nutrisolution, BLM, etc (23:00)
+Suivre les relances Figaro, Altice et Figaro AirTarget pour confirmer les évolutions et négocier les tarifs ad-serves (16:00)
+
+**Michael Alves**
+Poursuivre le développement et réglage de l’outil Albert pour améliorer la reconnaissance et l’exploitation des données chiffrées, notamment les KPIs (05:00)
+Analyser les causes des baisses de performances récentes et réfléchir à la gestion de Snake Interactive (17:00)
+Évaluer la pertinence et conditions pour contacter Snake Interactive et envisager des actions adaptées (18:00)
+Surveiller les performances campagne et optimiser ou attendre l’arrivée de campagnes plus performantes (24:00)
+
+
+Super Summary List Overview :
+- **Automatisation de l'assistant IA Albert** : Albert améliore le support, mais limité sur les données sensibles comme les KPIs.
+
+- **Performance publicitaire en déclin** : Dépenses de 15 200 €, baisse due à réductions budgétaires chez plusieurs annonceurs.
+
+- **Indicateurs d'efficacité en chute** : CPC à 38 centimes, baisse de 7-8%. Attention à la saturation du marché.
+
+- **Relations avec fournisseurs** : Retards pour déploiement Figaro prévu le 24 novembre, attentes de clarifications avec Digital Prisma.
+
+- **Proposition tarifaire pour Figaro** : Envoyée il y a dix jours, Thomas envisage d'autres contacts pour accélérer le processus.
+
+- **Stratégie commerciale** : Optimisations techniques à poursuivre, relance des partenaires nécessaires pour maximiser les investissements avant Black Friday.
+
+Short Summary :
+La réunion aborde principalement le développement de l'assistant IA Albert, qui cherche à améliorer le support interne en facilitant les interactions avec les données, bien que des limitations subsistent sur les données sensibles comme les KPIs. Michael Alves présente Albert, qui peut extraire des informations des emails pour fournir un contexte, mais sa fiabilité sur les chiffres reste à évaluer. Parallèlement, une baisse des performances publicitaires est constatée, avec des dépenses de 15 200 € par jour, impactées par des réductions budgétaires chez plusieurs annonceurs. Les indicateurs d'efficacité, tels que le CPC et le CTR, montrent une dégradation, ce qui nécessite un suivi accru. La réunion traite également des relations avec les fournisseurs, des retards de déploiement, et de la nécessité de relancer des partenaires pour maximiser les investissements avant le Black Friday.
+
+Super Summary List Shorthand Bullet :
+📄 **Gestion des pièces jointes** (00:00 - 04:00)
+Importance de vérifier les pièces jointes avant envoi.
+Incident avec un PDF contenant des informations masquées.
+🤖 **Outil Albert** (04:00 - 10:00)
+Présentation de l'outil d'analyse conversationnelle.
+Limites sur les données confidentielles comme les KPIs.
+Difficultés d'intégration des données chiffrées.
+📊 **Bilan des performances des campagnes** (10:00 - 13:00)
+15 200 € dépensés, proche de l'objectif.
+Baisse des investissements de clients importants.
+🚧 **Suivi des livraisons et déploiements** (14:00 - 15:00)
+Retard au déploiement final d'une campagne.
+Absences et congés chez les parties techniques.
+📞 **Prise de contact avec partenaires médias** (15:00 - 16:00)
+Call prévu avec Digital Prisma pour faire le point.
+Ajustement des campagnes en cours.
+⚠️ **Gestion de Snake Interactive** (17:00 - 19:00)
+Déception liée à la qualité du trafic fourni.
+Proposition d'une stratégie d'ajustement des enchères.
+🔄 **Relations avec CCM LADSERVING** (19:00 - 22:00)
+En attente des avancées avec Figaro.
+Possibilité d'arrêter AirTarget Figaro.
+📉 **Analyse des performances récentes** (23:00 - 25:00)
+Baisse du CPM, CPC et CTR.
+Nécessité de surveiller l'optimisation des campagnes.
+📅 **Prochaine étape** (23:00 - 24:00)
+Message à envoyer aux équipes pour la fenêtre d'opportunité publicitaire avant Black Friday.
+
+
+Main Attendee Email Name : Michael Alves
+
+Super Summary Overview :
+- **Automatisation de l'assistant IA Albert** : Albert améliore le support, mais limité sur les données sensibles comme les KPIs.
+
+- **Performance publicitaire en déclin** : Dépenses de 15 200 €, baisse due à réductions budgétaires chez plusieurs annonceurs.
+
+- **Indicateurs d'efficacité en chute** : CPC à 38 centimes, baisse de 7-8%. Attention à la saturation du marché.
+
+- **Relations avec fournisseurs** : Retards pour déploiement Figaro prévu le 24 novembre, attentes de clarifications avec Digital Prisma.
+
+- **Proposition tarifaire pour Figaro** : Envoyée il y a dix jours, Thomas envisage d'autres contacts pour accélérer le processus.
+
+- **Stratégie commerciale** : Optimisations techniques à poursuivre, relance des partenaires nécessaires pour maximiser les investissements avant Black Friday.
+
+Freestyle Notes :
+## **Automatisation et Support IA**
+
+Le développement de l’assistant IA **Albert** vise à améliorer le support interne en permettant des interactions directes avec les données, malgré des limites actuelles sur les indicateurs clés.
+
+- **Michael Alves** a présenté l’intégration d’**Albert** dans le support, capable de répondre aux questions posées par l’équipe, mais limité pour l’instant sur les données chiffrées sensibles comme les KPIs (05:10)
+    - L’outil peut lire les mails de Michael et fournir un contexte d’échanges récents, augmentant la réactivité dans les discussions.
+    - La difficulté majeure reste la fiabilité des réponses sur les chiffres, Albert fournissant des données erronées ou incomplètes.
+    - Michael prévoit d’évaluer l’usage d’Albert avant d’investir dans une mise à jour importante de la documentation, notamment dans Confluence, qui contient des données obsolètes depuis 4-5 ans.
+    - L’objectif à long terme est de contrôler des campagnes publicitaires via l’assistant, comme couper ou obtenir des statistiques instantanément, ce qui pourrait améliorer la gestion opérationnelle.
+
+- Le système d’auto-réponse basé sur les mails et documents internes pourrait accroître l’autonomie du support (08:15)
+    - Michael a connecté Albert aux emails pour extraire les échanges récents sur des sujets comme le pixel cloud media, permettant une meilleure traçabilité des discussions.
+    - Le volume de données reste contrôlé pour l’instant, mais pourrait croître rapidement selon l’usage futur.
+    - Thomas souligne que la correction des erreurs dans Confluence sera envisagée si l’outil s’avère utile, évitant un travail inutile en amont.
+
+## **Performance Publicitaire et Budget**
+
+La performance globale des campagnes publicitaires montre un ralentissement impacté par des réductions budgétaires chez plusieurs annonceurs clés.
+
+- L’équipe a atteint un chiffre de **15 200 €** dépensés sur la journée, conforme à l’objectif fixé, mais en légère baisse par rapport aux jours précédents (10:50)
+    - La baisse s’explique notamment par la diminution des budgets de plusieurs annonceurs comme **Mint Energy** (passage de 600 à 100 €) et d’autres comme Nutrisolution, Symbioflores, Epalive, MGT, et Dent qui réduisent aussi leurs dépenses.
+    - Schwartz a maintenu sa diffusion, mais d’autres comme Invoj ont fortement diminué leur budget quotidien (de 1500 à moins de 200 €).
+    - Le volume d’inventaires publicitaires disponibles ne semble pas avoir diminué, notamment chez Prisma, ce qui suggère un problème côté demande ou optimisation.
+
+- Michael et Thomas ont noté une baisse des indicateurs d’efficacité, en particulier un **CPC en baisse de 7-8%** à **38 centimes** et un CTR en forte chute, affectant la rentabilité des campagnes (23:47)
+    - Cette dégradation intervient après une période de 11 jours où tous les objectifs étaient dépassés, signalant une phase de latence ou saturation du marché.
+    - Thomas prévoit de notifier les équipes Nutrisolution et BLM pour les encourager à activer leurs campagnes durant cette fenêtre d’opportunité restante d’environ une semaine.
+    - La baisse est aussi liée à l’arrêt ou la réduction de certaines campagnes, notamment chez le comparateur mutuel et Mutuel Senior.
+
+## **Relations avec les Fournisseurs et Partenaires**
+
+Le suivi des relations fournisseurs révèle des difficultés avec certains partenaires et des opportunités en attente, notamment pour intégrer Figaro.
+
+- Le déploiement des échos par un partenaire est prévu pour la semaine du **24 novembre**, malgré quelques retards liés aux congés et priorités techniques (14:01)
+    - Maxime Aïnez, responsable technique, est sous pression mais limité par des ressources, ce qui ralentit l’avancement.
+    - Thomas a ajusté certains tags à la demande du partenaire pour faciliter la livraison finale.
+
+- Thomas a programmé un appel avec la responsable CRM de **Digital Prisma (anciennement M6)** pour clarifier les prochaines étapes et attentes, après plusieurs reports (15:34)
+    - L’objectif est de relancer la collaboration et d’évaluer la qualité des plans proposés, tout en cherchant à éviter de nouveaux délais.
+    - La relation avec **Snake Interactive** reste compliquée, car les performances sont très mauvaises, avec un trafic en grande partie robotique détecté (17:03)
+    - Michael propose de réfléchir à une possible réintégration de Snake Interactive, sous conditions strictes comme l’utilisation de bid adjustments spécifiques et une blacklist des annonceurs à risque, pour profiter du volume malgré la qualité médiocre.
+
+- Concernant **CCM LadsServing**, l’équipe reste prudente avant d’engager des confrontations, préférant attendre que l’intégration de Figaro avance pour renforcer leur position (19:26)
+    - Pauline, contact principal chez CCM, sera recontactée une fois que Figaro sera bien intégré, ce qui pourrait affaiblir l’usage d’AirTarget chez eux.
+    - Figaro utilise encore AirTarget pour l’autopromotion, mais pourrait migrer vers la plateforme interne, ce qui modifierait significativement les volumes et la dynamique du marché.
+
+## **Stratégie Commerciale et Prochaines Étapes**
+
+La priorité est donnée à la finalisation des intégrations clés et à la stabilisation des performances avant de prendre de nouveaux engagements.
+
+- Thomas a envoyé une proposition tarifaire détaillée à Figaro il y a dix jours, avec plusieurs relances sans réponse complète, mais il prévoit de solliciter d’autres contacts pour débloquer la situation (21:43)
+    - La proposition s’aligne sur les frais de marché, autour de **10 centimes** par impression, ce qui ne surprend pas les partenaires.
+    - Michael souhaite conclure avec Figaro rapidement, considérant cette étape comme un point final stratégique pour la gestion des campagnes CCM.
+
+- L’analyse conjointe des performances incite à une vigilance accrue sur la qualité des campagnes et le maintien des budgets, avec une demande à l’équipe technique de surveiller les optimisations (23:09)
+    - La situation actuelle, avec un affaiblissement des CPC et CTR, nécessite un suivi rapproché pour identifier les causes et ajuster les stratégies.
+    - La communication avec les annonceurs est essentielle pour maximiser les investissements pendant la période critique du Black Friday.
+
+- Le plan d’action immédiat inclut la poursuite des optimisations techniques, la relance des partenaires prioritaires, et la possible expérimentation de nouvelles sources de trafic sous contrôle strict (19:13)
+    - La réflexion sur l’utilisation de Snake Interactive illustre la volonté de trouver des leviers supplémentaires tout en protégeant la qualité des leads.
+    - Michael et Thomas insistent sur une approche pragmatique, mesurée et concertée avant d’ouvrir de nouveaux fronts commerciaux.
+
+Super Freestyle Notes :
+## **Automatisation et Support IA**
+
+Le développement de l’assistant IA **Albert** vise à améliorer le support interne en permettant des interactions directes avec les données, malgré des limites actuelles sur les indicateurs clés.
+
+- **Michael Alves** a présenté l’intégration d’**Albert** dans le support, capable de répondre aux questions posées par l’équipe, mais limité pour l’instant sur les données chiffrées sensibles comme les KPIs (05:10)
+    - L’outil peut lire les mails de Michael et fournir un contexte d’échanges récents, augmentant la réactivité dans les discussions.
+    - La difficulté majeure reste la fiabilité des réponses sur les chiffres, Albert fournissant des données erronées ou incomplètes.
+    - Michael prévoit d’évaluer l’usage d’Albert avant d’investir dans une mise à jour importante de la documentation, notamment dans Confluence, qui contient des données obsolètes depuis 4-5 ans.
+    - L’objectif à long terme est de contrôler des campagnes publicitaires via l’assistant, comme couper ou obtenir des statistiques instantanément, ce qui pourrait améliorer la gestion opérationnelle.
+
+- Le système d’auto-réponse basé sur les mails et documents internes pourrait accroître l’autonomie du support (08:15)
+    - Michael a connecté Albert aux emails pour extraire les échanges récents sur des sujets comme le pixel cloud media, permettant une meilleure traçabilité des discussions.
+    - Le volume de données reste contrôlé pour l’instant, mais pourrait croître rapidement selon l’usage futur.
+    - Thomas souligne que la correction des erreurs dans Confluence sera envisagée si l’outil s’avère utile, évitant un travail inutile en amont.
+
+## **Performance Publicitaire et Budget**
+
+La performance globale des campagnes publicitaires montre un ralentissement impacté par des réductions budgétaires chez plusieurs annonceurs clés.
+
+- L’équipe a atteint un chiffre de **15 200 €** dépensés sur la journée, conforme à l’objectif fixé, mais en légère baisse par rapport aux jours précédents (10:50)
+    - La baisse s’explique notamment par la diminution des budgets de plusieurs annonceurs comme **Mint Energy** (passage de 600 à 100 €) et d’autres comme Nutrisolution, Symbioflores, Epalive, MGT, et Dent qui réduisent aussi leurs dépenses.
+    - Schwartz a maintenu sa diffusion, mais d’autres comme Invoj ont fortement diminué leur budget quotidien (de 1500 à moins de 200 €).
+    - Le volume d’inventaires publicitaires disponibles ne semble pas avoir diminué, notamment chez Prisma, ce qui suggère un problème côté demande ou optimisation.
+
+- Michael et Thomas ont noté une baisse des indicateurs d’efficacité, en particulier un **CPC en baisse de 7-8%** à **38 centimes** et un CTR en forte chute, affectant la rentabilité des campagnes (23:47)
+    - Cette dégradation intervient après une période de 11 jours où tous les objectifs étaient dépassés, signalant une phase de latence ou saturation du marché.
+    - Thomas prévoit de notifier les équipes Nutrisolution et BLM pour les encourager à activer leurs campagnes durant cette fenêtre d’opportunité restante d’environ une semaine.
+    - La baisse est aussi liée à l’arrêt ou la réduction de certaines campagnes, notamment chez le comparateur mutuel et Mutuel Senior.
+
+## **Relations avec les Fournisseurs et Partenaires**
+
+Le suivi des relations fournisseurs révèle des difficultés avec certains partenaires et des opportunités en attente, notamment pour intégrer Figaro.
+
+- Le déploiement des échos par un partenaire est prévu pour la semaine du **24 novembre**, malgré quelques retards liés aux congés et priorités techniques (14:01)
+    - Maxime Aïnez, responsable technique, est sous pression mais limité par des ressources, ce qui ralentit l’avancement.
+    - Thomas a ajusté certains tags à la demande du partenaire pour faciliter la livraison finale.
+
+- Thomas a programmé un appel avec la responsable CRM de **Digital Prisma (anciennement M6)** pour clarifier les prochaines étapes et attentes, après plusieurs reports (15:34)
+    - L’objectif est de relancer la collaboration et d’évaluer la qualité des plans proposés, tout en cherchant à éviter de nouveaux délais.
+    - La relation avec **Snake Interactive** reste compliquée, car les performances sont très mauvaises, avec un trafic en grande partie robotique détecté (17:03)
+    - Michael propose de réfléchir à une possible réintégration de Snake Interactive, sous conditions strictes comme l’utilisation de bid adjustments spécifiques et une blacklist des annonceurs à risque, pour profiter du volume malgré la qualité médiocre.
+
+- Concernant **CCM LadsServing**, l’équipe reste prudente avant d’engager des confrontations, préférant attendre que l’intégration de Figaro avance pour renforcer leur position (19:26)
+    - Pauline, contact principal chez CCM, sera recontactée une fois que Figaro sera bien intégré, ce qui pourrait affaiblir l’usage d’AirTarget chez eux.
+    - Figaro utilise encore AirTarget pour l’autopromotion, mais pourrait migrer vers la plateforme interne, ce qui modifierait significativement les volumes et la dynamique du marché.
+
+## **Stratégie Commerciale et Prochaines Étapes**
+
+La priorité est donnée à la finalisation des intégrations clés et à la stabilisation des performances avant de prendre de nouveaux engagements.
+
+- Thomas a envoyé une proposition tarifaire détaillée à Figaro il y a dix jours, avec plusieurs relances sans réponse complète, mais il prévoit de solliciter d’autres contacts pour débloquer la situation (21:43)
+    - La proposition s’aligne sur les frais de marché, autour de **10 centimes** par impression, ce qui ne surprend pas les partenaires.
+    - Michael souhaite conclure avec Figaro rapidement, considérant cette étape comme un point final stratégique pour la gestion des campagnes CCM.
+
+- L’analyse conjointe des performances incite à une vigilance accrue sur la qualité des campagnes et le maintien des budgets, avec une demande à l’équipe technique de surveiller les optimisations (23:09)
+    - La situation actuelle, avec un affaiblissement des CPC et CTR, nécessite un suivi rapproché pour identifier les causes et ajuster les stratégies.
+    - La communication avec les annonceurs est essentielle pour maximiser les investissements pendant la période critique du Black Friday.
+
+- Le plan d’action immédiat inclut la poursuite des optimisations techniques, la relance des partenaires prioritaires, et la possible expérimentation de nouvelles sources de trafic sous contrôle strict (19:13)
+    - La réflexion sur l’utilisation de Snake Interactive illustre la volonté de trouver des leviers supplémentaires tout en protégeant la qualité des leads.
+    - Michael et Thomas insistent sur une approche pragmatique, mesurée et concertée avant d’ouvrir de nouveaux fronts commerciaux.
+
+Super Summary List Free Style Notes :
+## **Automatisation et Support IA**
+
+Le développement de l’assistant IA **Albert** vise à améliorer le support interne en permettant des interactions directes avec les données, malgré des limites actuelles sur les indicateurs clés.
+
+- **Michael Alves** a présenté l’intégration d’**Albert** dans le support, capable de répondre aux questions posées par l’équipe, mais limité pour l’instant sur les données chiffrées sensibles comme les KPIs (05:10)
+    - L’outil peut lire les mails de Michael et fournir un contexte d’échanges récents, augmentant la réactivité dans les discussions.
+    - La difficulté majeure reste la fiabilité des réponses sur les chiffres, Albert fournissant des données erronées ou incomplètes.
+    - Michael prévoit d’évaluer l’usage d’Albert avant d’investir dans une mise à jour importante de la documentation, notamment dans Confluence, qui contient des données obsolètes depuis 4-5 ans.
+    - L’objectif à long terme est de contrôler des campagnes publicitaires via l’assistant, comme couper ou obtenir des statistiques instantanément, ce qui pourrait améliorer la gestion opérationnelle.
+
+- Le système d’auto-réponse basé sur les mails et documents internes pourrait accroître l’autonomie du support (08:15)
+    - Michael a connecté Albert aux emails pour extraire les échanges récents sur des sujets comme le pixel cloud media, permettant une meilleure traçabilité des discussions.
+    - Le volume de données reste contrôlé pour l’instant, mais pourrait croître rapidement selon l’usage futur.
+    - Thomas souligne que la correction des erreurs dans Confluence sera envisagée si l’outil s’avère utile, évitant un travail inutile en amont.
+
+## **Performance Publicitaire et Budget**
+
+La performance globale des campagnes publicitaires montre un ralentissement impacté par des réductions budgétaires chez plusieurs annonceurs clés.
+
+- L’équipe a atteint un chiffre de **15 200 €** dépensés sur la journée, conforme à l’objectif fixé, mais en légère baisse par rapport aux jours précédents (10:50)
+    - La baisse s’explique notamment par la diminution des budgets de plusieurs annonceurs comme **Mint Energy** (passage de 600 à 100 €) et d’autres comme Nutrisolution, Symbioflores, Epalive, MGT, et Dent qui réduisent aussi leurs dépenses.
+    - Schwartz a maintenu sa diffusion, mais d’autres comme Invoj ont fortement diminué leur budget quotidien (de 1500 à moins de 200 €).
+    - Le volume d’inventaires publicitaires disponibles ne semble pas avoir diminué, notamment chez Prisma, ce qui suggère un problème côté demande ou optimisation.
+
+- Michael et Thomas ont noté une baisse des indicateurs d’efficacité, en particulier un **CPC en baisse de 7-8%** à **38 centimes** et un CTR en forte chute, affectant la rentabilité des campagnes (23:47)
+    - Cette dégradation intervient après une période de 11 jours où tous les objectifs étaient dépassés, signalant une phase de latence ou saturation du marché.
+    - Thomas prévoit de notifier les équipes Nutrisolution et BLM pour les encourager à activer leurs campagnes durant cette fenêtre d’opportunité restante d’environ une semaine.
+    - La baisse est aussi liée à l’arrêt ou la réduction de certaines campagnes, notamment chez le comparateur mutuel et Mutuel Senior.
+
+## **Relations avec les Fournisseurs et Partenaires**
+
+Le suivi des relations fournisseurs révèle des difficultés avec certains partenaires et des opportunités en attente, notamment pour intégrer Figaro.
+
+- Le déploiement des échos par un partenaire est prévu pour la semaine du **24 novembre**, malgré quelques retards liés aux congés et priorités techniques (14:01)
+    - Maxime Aïnez, responsable technique, est sous pression mais limité par des ressources, ce qui ralentit l’avancement.
+    - Thomas a ajusté certains tags à la demande du partenaire pour faciliter la livraison finale.
+
+- Thomas a programmé un appel avec la responsable CRM de **Digital Prisma (anciennement M6)** pour clarifier les prochaines étapes et attentes, après plusieurs reports (15:34)
+    - L’objectif est de relancer la collaboration et d’évaluer la qualité des plans proposés, tout en cherchant à éviter de nouveaux délais.
+    - La relation avec **Snake Interactive** reste compliquée, car les performances sont très mauvaises, avec un trafic en grande partie robotique détecté (17:03)
+    - Michael propose de réfléchir à une possible réintégration de Snake Interactive, sous conditions strictes comme l’utilisation de bid adjustments spécifiques et une blacklist des annonceurs à risque, pour profiter du volume malgré la qualité médiocre.
+
+- Concernant **CCM LadsServing**, l’équipe reste prudente avant d’engager des confrontations, préférant attendre que l’intégration de Figaro avance pour renforcer leur position (19:26)
+    - Pauline, contact principal chez CCM, sera recontactée une fois que Figaro sera bien intégré, ce qui pourrait affaiblir l’usage d’AirTarget chez eux.
+    - Figaro utilise encore AirTarget pour l’autopromotion, mais pourrait migrer vers la plateforme interne, ce qui modifierait significativement les volumes et la dynamique du marché.
+
+## **Stratégie Commerciale et Prochaines Étapes**
+
+La priorité est donnée à la finalisation des intégrations clés et à la stabilisation des performances avant de prendre de nouveaux engagements.
+
+- Thomas a envoyé une proposition tarifaire détaillée à Figaro il y a dix jours, avec plusieurs relances sans réponse complète, mais il prévoit de solliciter d’autres contacts pour débloquer la situation (21:43)
+    - La proposition s’aligne sur les frais de marché, autour de **10 centimes** par impression, ce qui ne surprend pas les partenaires.
+    - Michael souhaite conclure avec Figaro rapidement, considérant cette étape comme un point final stratégique pour la gestion des campagnes CCM.
+
+- L’analyse conjointe des performances incite à une vigilance accrue sur la qualité des campagnes et le maintien des budgets, avec une demande à l’équipe technique de surveiller les optimisations (23:09)
+    - La situation actuelle, avec un affaiblissement des CPC et CTR, nécessite un suivi rapproché pour identifier les causes et ajuster les stratégies.
+    - La communication avec les annonceurs est essentielle pour maximiser les investissements pendant la période critique du Black Friday.
+
+- Le plan d’action immédiat inclut la poursuite des optimisations techniques, la relance des partenaires prioritaires, et la possible expérimentation de nouvelles sources de trafic sous contrôle strict (19:13)
+    - La réflexion sur l’utilisation de Snake Interactive illustre la volonté de trouver des leviers supplémentaires tout en protégeant la qualité des leads.
+    - Michael et Thomas insistent sur une approche pragmatique, mesurée et concertée avant d’ouvrir de nouveaux fronts commerciaux.
+
+Note:
+
+
+Action Items :
+
+**Thomas Anjubault**
+Corriger et mettre à jour la documentation Confluence pour améliorer la fiabilité des données pour Albert (10:00)
+Relancer et organiser le call avec Digital Prisma pour faire le point sur la collaboration (15:00)
+Modifier les tags demandés par Maxime Aïnez pour faciliter les déploiements (14:00)
+Envoyer un message à Nazim et Brice concernant la fenêtre d’opportunité publicitaire pré-Black Friday pour Nutrisolution, BLM, etc (23:00)
+Suivre les relances Figaro, Altice et Figaro AirTarget pour confirmer les évolutions et négocier les tarifs ad-serves (16:00)
+
+**Michael Alves**
+Poursuivre le développement et réglage de l’outil Albert pour améliorer la reconnaissance et l’exploitation des données chiffrées, notamment les KPIs (05:00)
+Analyser les causes des baisses de performances récentes et réfléchir à la gestion de Snake Interactive (17:00)
+Évaluer la pertinence et conditions pour contacter Snake Interactive et envisager des actions adaptées (18:00)
+Surveiller les performances campagne et optimiser ou attendre l’arrivée de campagnes plus performantes (24:00)
+
+
+Bullet Gist :
+🤖 Automatisation de l'assistant IA Albert: Albert améliore le support, mais limité sur les données sensibles comme les KPIs.
+📉 Performance publicitaire en déclin: Dépenses de 15 200 €, baisse due à réductions budgétaires chez plusieurs annonceurs.
+🔻 Indicateurs d'efficacité en chute: CPC à 38 centimes, baisse de 7-8%. Attention à la saturation du marché.
+🤝 Relations avec fournisseurs: Retards pour déploiement Figaro prévu le 24 novembre, attentes de clarifications avec Digital Prisma.
+💼 Proposition tarifaire pour Figaro: Envoyée il y a dix jours, Thomas envisage d'autres contacts pour accélérer le processus.
+🚀 Stratégie commerciale: Optimisations techniques à poursuivre, relance des partenaires nécessaires pour maximiser les investissements avant Black Friday.
