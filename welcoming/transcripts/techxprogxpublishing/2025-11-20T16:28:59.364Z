@@ -1,0 +1,117 @@
+﻿Meet – Point Hebdo techxprogxpublishing WM
+
+
+Date: November 20, 2025 4:00 PM CET
+Transcript: See full transcript
+Audio: Listen to audio
+Participants: hdoucet@welcoming.com, fthorens@welcoming.com, mchamois@welcoming.com, mchenel@welcoming-group.com, malves@welcoming-group.com
+Duration: 82.00 mins
+
+
+Overview
+* Conformité CNIL: Documents pour la CNIL prêts, prioritaires pour lundi, liste exhaustive des clients incluse.
+* Collecte de données: Environ 200 000 profils collectés par mois, en hausse; besoin de déduplication critique identifiée.
+* Retargeting impacté: Diplômes CNIL ont suspendu le cookie Cloud Media, réduisant le chiffre d’affaires de Bienici à 70 000 euros.
+* Incident Cloudflare: Panne de 4 heures révélant la dépendance à Cloudflare, affectant les services newsletters et tracking.
+* Automatisation IA: Intégration d'outils IA pour documentation en expérimentation, avec suivi d'incidents et mise à jour des documents clé.
+
+
+Notes
+
+
+📄 Transfert et finalisation des documents CNIL
+* Deadline prévue lundi pour envoi à la CNIL.
+* Inclusion de notes explicatives pour clarifier les données transmises.
+
+
+🔗 Mécanisme de mesure des clics
+* Utilisation d'une page de redirection sécurisée.
+* Mise à jour des colonnes 'OptinStatus' et 'Date Last Click' en base.
+
+
+📊 Analyse des clics PowerSpace
+* Gestion d’URLs encryptées dans les newsletters.
+* Implications pour le tracking et la transparence des données.
+
+
+🗂️ Préparation du dossier complet sur les parcours utilisateurs
+* Contrats avec les prestataires médias.
+* Nettoyage des listes clients litigieuses.
+
+
+📧 Récupération et vérification des échanges mails
+* Distribution des preuves de consentement relatifs aux plaintes.
+* Forwarding des documents internes.
+
+
+📈 Point sur la volumétrie des collectes
+* 200 000 profils collectés sur les 30 derniers jours.
+* Nécessité d'optimiser les déduplications par numéro de téléphone.
+
+
+🤖 Amélioration du dispositif d’intelligence artificielle 'Albert'
+* Centralisation, recherche et analyse des documents internes.
+* Limité par la non-uniformité des données.
+
+
+⚠️ Incident majeur causé par la panne de Cloudflare
+* Impact direct sur la délivrabilité.
+* Dépendance critique à ce fournisseur.
+
+
+👤 Nouvel interlocuteur chez Spio
+* Thomas promet une meilleure réactivité.
+* Gestion des tickets et réponse aux insatisfactions.
+
+
+🔄 Discussion sur le retargeting Cloud Media
+* Problématiques de consentement et cookies.
+* Identification d’incohérences dans les headers et footers.
+
+
+⚖️ Analyse des risques liés au 'snowshoeing'
+* Incompatibilité avec la réglementation RGPD.
+* Nécessité d'harmonisation des domaines et des consentements.
+* Amélioration du tracking comportemental sans dépôt de cookies.
+* Demande légale de consentement via CMP.
+
+
+💡 Brainstorming sur l’intégration d’une CMP maison
+* Gestion du consentement des pixels d’ouverture.
+* Réduction des risques liés aux consentements fragmentés.
+
+
+🔄 Clarification sur la structuration des données en base
+* Transfert des responsabilités techniques.
+* Gestion du wording dans les outils.
+
+
+✅ Conclusion sur la progression de la documentation
+* Planification d’une relecture demain.
+* Poursuite des échanges liés à la conformité.
+
+
+Action Items
+Michael Alves
+* Finaliser et envoyer les documents CNIL avec notes explicatives au plus tard lundi
+* Récupérer la liste exhaustive des clients actualisée et les contrats médias
+* Demander un token pour recharger les fichiers sur la plateforme CNIL et gérer les envois
+* Envoyer les échanges mails liés aux plaintes, notamment ceux avec 20 minutes
+* Participer à la consolidation des données et surveillance des désabonnements liés à Cloud Media
+* Suivre l’état des KPI liés à la coupure Cloud et au retargeting
+* Préparer la relecture complète des documents CNIL demain
+Mathilde Chenel
+* Reprendre contact avec Aziza pour clarification sur la partie data et nettoyage clients Cloud Media & Co
+* Forwarder les échanges mails avec le plaignant et 20 minutes à Michael Alves
+* Validation et suivi de la coupure des cookies Cloud Media et vérification de l’impact sur le retargeting
+* Participer à la gestion et présentation du projet CMP et suivi du wording imbriqué dans la base
+Mathieu Chamois
+* Extraire les données des primo collectants sur les 30 derniers jours avec filtres définis et préparer un extrait à transmettre
+* Réaliser une extraction groupée par numéro de téléphone pour déduplication
+* Confirmer la gestion des désabonnements reçus via FTP avec Cloud Media
+* Fournir liste d’URLs pour screenshots et conseiller sur la gestion des paramètres dans les URL
+* Transfert des responsabilités techniques liées à certaines colonnes en base vers Anso/Flo
+Frédéric Thorens
+* Communiquer les retours sur la relation avec Spio, suivi de la présence de Thomas comme interlocuteur réactif
+Hélène Doucet
+* Vérifier et éventuellement transmettre les documents d’incidents fréquents pour alimenter Albert
