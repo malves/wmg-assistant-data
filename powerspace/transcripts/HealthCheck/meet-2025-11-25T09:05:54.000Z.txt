@@ -1,0 +1,93 @@
+# Meeting Summary
+The data below is relative to a meeting.
+
+# Metadata
+- **Meet Title :** Meet – Health check
+- **Date :** Tue Nov 25 at 9:05 AM UTC
+- **Duration in minutes :** 16.00 mins
+- **Participants :** Thomas Anjubault,Thomas Anjubault,Thomas Anjubault,Michael Alves,Michael Alves,Michael Alves,Jessica,Jessica,Nazim,Nazim
+- **Source :** Fireflies.ai
+- **Created By :** Zapier Automation
+
+# 1. Overview of the Meeting :
+
+- **Chiffre d'affaires en hausse:** Le chiffre d’affaires quotidien de l’e-commerce est entre 10 000 et 11 000 euros, objectif pour Black Friday de 25 000 à 30 000 euros.
+- **Augmentation du trafic:** Le trafic a surpris avec une hausse significative ce mardi, dépassant le lundi précédent.
+- **CPM stable:** Les performances de Prisma et Rewards Media stabilisées avec un CPM à 0,28 euro, revenu sur Wellcome autour de 46 millions d’impressions.
+- **Négociations avec clients:** La Poste augmente son budget à 30 000-40 000 euros, mais le CTR reste faible, freinant la conversion.
+- **Base d'annonceurs solide:** La continuité de gros annonceurs comme Nissan garantit des revenus récurrents face à la volatilité du marché.
+- **Résoudre défis techniques:** Urgence de solutions pour ad-serving d’ici 2026 afin d’éviter pertes financières, essentiel pour rentabilité future.
+
+# 2 Notes :
+## **Performance commerciale et campagnes Black Friday**
+
+La performance commerciale est en forte hausse avec des indicateurs clés dépassant les attentes avant le Black Friday.
+
+- **Le chiffre d’affaires quotidien de l’e-commerce tourne autour de 10 000 à 11 000 euros** depuis plusieurs jours, avec un objectif ambitieux de **25 000 à 30 000 euros pour le Black Friday** selon Thomas Anjubault (04:16).
+    - Le trafic a augmenté de manière inattendue ce mardi, surpassant le lundi précédent en impressions, ce qui est inhabituel pour un mardi (02:19).
+    - Michael Alves a décidé d’appliquer une **part de 50% sur la page de confirmation**, ce qui n’avait jamais été fait auparavant, pour optimiser les revenus publicitaires avec un RPM moyen de **53 à 54 euros** (03:21).
+    - Cette hausse précoce des promotions justifie une stratégie agressive pour capter la demande avant la période traditionnelle du Black Friday (02:57).
+    - Le contexte concurrentiel pousse à maximiser les revenus dès maintenant car les campagnes clientes démarrent plus tôt et plus fort que d’habitude.
+
+- **Les performances de Prisma et Rewards Media se stabilisent avec un CPM à 0,28 euro**, indiquant un retour à un niveau rentable après des fluctuations (06:15).
+    - Thomas note une possible levée de blacklistage sur certains réseaux comme Orange et Yahoo, ayant entraîné un accroissement du trafic sur Wellcome à près de **46 millions d’impressions lundi** (06:44).
+    - Cette dynamique explique la hausse des revenus sur Wellcome, même si le CPM reste stable autour de 0,24 euro (07:01).
+    - Michael Alves souligne que le modèle d’ad-serving actuel génère des pertes, et que des solutions doivent être trouvées en 2026 pour limiter ces coûts (07:18).
+    - L’enjeu est d’améliorer la rentabilité sans compromettre le volume d’impressions, notamment chez les éditeurs clés comme Prisma et Ouest-France.
+
+## **Négociations et relations clients clés**
+
+Les négociations avec des clients et partenaires stratégiques avancent, mais certains segments restent fragiles ou incertains.
+
+- **La Poste a fortement augmenté son budget avec un CPC négocié à 0,60 euro** et un CTR passant de 0,01 à 0,03, grâce au travail de Jessica et Nazim, améliorant substantiellement la rentabilité des campagnes (08:31).
+    - Malgré cette progression, le CTR reste bas, ce qui limite la diffusion optimale des annonces (08:31).
+    - Les produits proposés, comme des timbres DC Marvel et des idées cadeaux, ne correspondent pas parfaitement à l’audience, ce qui freine la conversion (09:13).
+    - L’objectif est d’atteindre un budget de **30 000 à 40 000 euros**, un seuil jugé réaliste face à la cible actuelle (09:41).
+    - Cette relation illustre l’importance de l’adéquation produit-audience pour maximiser le retour client.
+
+- **Les échanges avec Figaro et Les Echos progressent lentement, avec un lancement prévu autour du 24 novembre**, mais sans impressions visibles à ce stade (10:25).
+    - Thomas a relancé Figaro, qui reste intéressé mais prend du temps pour valider les estimations (10:25).
+    - L’intégration avec Les Echos est en pause à cause d’un congé, mais reprendra rapidement (10:33).
+    - Le retard impacte le pipeline d’impressions et donc la génération de revenus prévue pour cette période.
+    - La relance active est planifiée pour accélérer la mise en production.
+
+## **État des partenaires éditoriaux et diversification de l’audience**
+
+Le portefeuille d’éditeurs est à revoir, avec des baisses marquées et des ajustements stratégiques nécessaires pour maintenir la rentabilité.
+
+- **Unimedia voit sa base d’abonnés chuter de 250 000 à 175 000, réduisant fortement son potentiel de revenus, estimé aujourd’hui entre 10 000 et 15 000 euros par an** (11:23).
+    - Thomas propose de rediriger cette audience vers Wellcome, offrant une meilleure rentabilité et un produit plus robuste (12:34).
+    - Michael Alves reste prudent face à la qualité du trafic, évoquant un risque de contamination par du trafic robotique et un impact négatif sur les annonceurs (14:13).
+    - Cette prudence illustre l’importance de garder un portefeuille propre pour préserver la confiance des annonceurs.
+    - La décision d’ouvrir ou non le compte Unimedia sera évaluée à court terme, en fonction des résultats et de l’évolution de la qualité du trafic.
+
+- **Le maintien de quelques gros annonceurs comme Nissan, Biovencia, Assiom, et Eclos assure un socle stable de revenus récurrents**, essentiel face à la volatilité d’autres partenaires (10:03).
+    - Cette base solide permet de supporter les efforts d’intégration des nouveaux éditeurs et les tests de nouveaux formats.
+    - L’équilibre entre gros clients et fils rouges crée une stabilité financière nécessaire pour la croissance.
+    - Le focus reste sur la qualité des relations et la diversification pour éviter la dépendance à un petit nombre.
+
+## **Stratégie technique et organisationnelle pour 2026**
+
+Des défis techniques liés à l’ad-serving doivent être résolus rapidement pour éviter des pertes financières, en lien avec la stratégie produit.
+
+- **Michael Alves insiste sur la nécessité de trouver des solutions pour limiter les pertes liées à l’ad-serving dès 2026**, notamment chez les éditeurs principaux comme Prisma (07:18).
+    - Le problème provient du fait que certains éditeurs prennent une part importante des impressions, réduisant la part monétisable pour la plateforme (07:18).
+    - Cette situation engendre des coûts technologiques sans retour suffisant, ce qui impacte la marge brute.
+    - Le plan d’action inclut une révision des contrats et des mécanismes de répartition des impressions.
+    - Cette optimisation est stratégique pour assurer l’équilibre financier à moyen terme.
+
+- **Le suivi rapproché des estimations et quotas est nécessaire pour piloter les campagnes, surtout avec un portefeuille éditorial instable** (10:48).
+    - Thomas gère activement les ajustements d’intégrations, comme le problème d’affichage sur Courrier Picard lié à une mauvaise configuration des zones (11:23).
+    - Les processus de relance clients sont renforcés pour éviter les périodes d’inactivité qui pénalisent le chiffre d’affaires.
+    - L’amélioration des outils de monitoring et la responsabilisation des équipes sont prévues pour renforcer la réactivité.
+    - Ces mesures visent à garantir la continuité opérationnelle et la qualité des livraisons.
+
+## **Perspectives et priorités à court terme**
+
+Le pilotage commercial et technique progresse bien, avec un focus clair sur la montée en charge des campagnes Black Friday et la qualité du trafic.
+
+- **Thomas Anjubault confirme que tous les sujets avancent positivement et progressivement, sans blocage majeur à ce stade** (15:42).
+    - La gestion des congés et des ressources est maîtrisée, avec un bon équilibre personnel et professionnel (00:58).
+    - L’attention reste portée sur la performance des campagnes en cours et sur les intégrations à venir.
+    - Michael Alves souligne la nécessité de rester vigilant sur les risques liés à certains partenaires et à la qualité du trafic (14:13).
+    - La priorité immédiate est la réussite du Black Friday et la sécurisation des revenus dans ce contexte tendu.
