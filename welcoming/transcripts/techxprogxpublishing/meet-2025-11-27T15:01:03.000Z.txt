@@ -1,0 +1,74 @@
+# Meeting Summary
+The data below is relative to a meeting.
+
+# Metadata
+- **Meet Title :** Meet – Point Hebdo techxprogxpublishing WM
+- **Date :** Thu Nov 27 at 3:01 PM UTC
+- **Duration in minutes :** 29.00 mins
+- **Participants :** Frédéric Thorens,Frédéric Thorens,Frédéric Thorens,Mathilde Chenel,Mathilde Chenel,Mathilde Chenel,Aurélie,Aurélie,Aurélie,Mathieu Chamois,Mathieu Chamois,Mathieu Chamois,Louli,Louli,Louli
+- **Source :** Fireflies.ai
+- **Created By :** Zapier Automation
+
+# 1. Overview of the Meeting :
+
+- **Signal Spam Submission:** Nouveau dossier soumis à Signal Spam pour renforcer confiance et améliorer communications, démarrage prévu en janvier 2026.  
+- **Yahoo Blocking Impact:** Blocage persistant chez Yahoo impacte la délivrabilité, mais d'autres fournisseurs montrent des signes positifs d'amélioration.  
+- **Data Management Issues:** Contrôle CNIL révèle incohérences dans la gestion des adresses inactives, nécessitant mesures de conformité adéquates.  
+- **Individual Consent Challenges:** Consentement individuel perçu comme point faible; une validation stricte est nécessaire pour éviter des litiges futurs.  
+- **Technical Improvements:** Ajout de nouvelles colonnes de consentement presque finalisé, améliorant la traçabilité des données dans les collecteurs.  
+- **Advertising Revenue Strategies:** Équipe teste divers annonceurs pour maximiser revenus publicitaires, avec des partenariats ciblés pour optimiser les bénéfices.
+
+# 2 Notes :
+## **Signal Spam et Relations avec les Fournisseurs**
+
+La décision est prise de soumettre un nouveau dossier à **Signal Spam** pour renforcer la confiance et améliorer les échanges (03:15).
+
+- **Frédéric Thorens** a noté que Signal Spam accueille favorablement les gros envoyeurs comme eux et encourage à postuler, ce qui ouvre des canaux de communication plus rapides et fiables.  
+- Cette démarche vise à éviter les sanctions basées sur des données obsolètes, comme des plaintes datant de plusieurs années, ce qui freine actuellement leur activité (04:24).  
+- La soumission est prévue pour **décembre 2025** en vue d’un démarrage début **janvier 2026**, avec une mise à jour du dossier incluant les derniers ajustements faits pour la CNIL (21:22).  
+- Cette approche devrait permettre d’obtenir des réponses claires et d’améliorer leur position dans la lutte contre les blocages injustifiés, notamment en mettant en avant leur transparence et conformité.
+
+## **Blocages et Gestion des Fournisseurs Espaces Publicitaires**
+
+Le blocage persistant de **Yahoo** impacte la délivrabilité, mais d’autres fournisseurs montrent des signes d’amélioration (06:17).
+
+- Malgré un blocage prolongé chez Yahoo, qui pourrait durer jusqu’à **30 jours** selon la logique d’un blocage similaire chez Google, l’impact est limité car Yahoo génère moins d’activité que d’autres ESP (07:49).  
+- **Frédéric Thorens** souligne que le blocage chez Orange est moins sévère depuis leur rencontre avec l’atelier Signal Spam, suggérant un effet positif des échanges récents (08:40).  
+- Des tickets ont été soumis auprès d’AbusX pour résoudre un problème de plaintes liées à Gala, avec un système de whitelist simplifié, mais la résolution pourrait prendre encore plusieurs jours (09:08).  
+- Les échanges techniques entre Mathieu et Thomas sur Yahoo se poursuivent sans conclusion claire, ce qui maintient un risque opérationnel pour la délivrabilité sur ce canal (06:30).
+
+## **Nettoyage des Bases et Conformité CNIL**
+
+Le contrôle CNIL a révélé quelques incohérences dans la gestion des données, notamment sur le traitement des adresses **NPI** (inactives ou invalides) (15:05).
+
+- La table **Person Hold** conserve uniquement le hash MD5 des emails supprimés, ce qui est justifié pour les enquêtes internes en cas de plaintes, évitant la conservation des emails en clair (16:00).  
+- Le principal point délicat concerne les adresses NPI avec un statut différent de zéro, qui sont conservées et peuvent poser problème lors des contrôles CNIL (17:05).  
+- La proposition est soit d’anonymiser ces adresses, soit de les déplacer dans une liste spécifique empêchant leur recollecte, afin de respecter les règles tout en évitant une recollecte systématique des hards (18:59).  
+- Un consensus est attendu pour acter cette approche et modifier les scripts de nettoyage pour finaliser la conformité (18:39).
+
+## **Collecte des Consentements et Validation Juridique**
+
+Le sujet crucial du consentement individuel reste un point faible identifié dans les échanges avec la CNIL, nécessitant une solution claire et validée (26:00).
+
+- **Mathilde Chenel** prépare une réunion avec l’ACNU mardi pour discuter d’un projet visant à capturer des preuves visuelles (screenshots) des pages de consentement, afin de prouver la collecte individuelle (26:30).  
+- Ce système repose sur la confiance, mais répond à l’exigence d’avoir une validation par utilisateur, ce qui est perçu comme difficile mais nécessaire (27:00).  
+- Une fois le système validé, il est prévu de faire relire tous les documents et formulations par **Aurélie**, la DPO, pour garantir leur conformité juridique (25:50).  
+- Cette démarche doit clarifier la position réglementaire et réduire les risques de litiges liés aux consentements insuffisants, ce qui est un enjeu clé pour la pérennité des collectes.
+
+## **Améliorations Techniques et Suivi des Collecteurs**
+
+Les travaux techniques avancent pour intégrer les nouvelles colonnes de consentement et améliorer la qualité des données collectées (22:30).
+
+- **Mathieu Chamois** a presque finalisé l’ajout de colonnes spécifiques pour le suivi des consentements à l’ouverture, avec une mise en place imminente des index Elasticsearch pour optimiser les requêtes (22:41).  
+- Ces évolutions doivent permettre d’alimenter automatiquement les collecteurs déjà en place, améliorant la traçabilité des données (23:33).  
+- L’envoi d’un mail de relance par **Louli** a eu un effet positif en réveillant les collecteurs, qui étaient peu actifs sur ce sujet, ce qui devrait accélérer la conformité à venir (24:16).  
+- Une vigilance est maintenue sur les collecteurs faibles, comme Webrivage, qui a chuté à **800 adresses collectées en septembre**, impactant leur volume global (24:44).
+
+## **Perspectives Commerciales et Communication Interne**
+
+L’équipe s’engage à maximiser les revenus publicitaires en testant différents liens et annonceurs pour identifier les plus rentables (11:23).
+
+- **Frédéric Thorens** a commencé à cliquer sur diverses publicités pour évaluer leur performance financière et orienter les efforts vers les meilleurs annonceurs (11:37).  
+- Une attention particulière est portée à certains partenaires comme Lysanne, perçus comme plus rémunérateurs (11:35).  
+- Cette démarche vise à optimiser les revenus publicitaires sur un marché concurrentiel tout en renforçant l’engagement utilisateur.  
+- La communication interne reste fluide et ouverte, permettant un partage rapide des informations techniques et stratégiques, ce qui facilite la prise de décision collective.
